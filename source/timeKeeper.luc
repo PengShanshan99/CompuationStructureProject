@@ -1,0 +1,16 @@
+module timeKeeper (
+    input clk,  // clock
+    input rst,  // reset
+    output out,
+    input start,
+    input moleNumber[6],
+    output timeUp
+  ) {
+
+  //dff min1[30](.clk(clk),.rst(rst),#INIT(30b0));
+  always {
+    out = 0;
+    if(start==1&&moleNumber >= 60){timeUp = 1;
+    }else{timeUp = 0;}
+  }
+}

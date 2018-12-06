@@ -1,0 +1,12 @@
+module singlePause (
+    input clk,  // clock
+    input rst,  // reset
+    output out,
+    input start
+  ) {
+dff pause[26](.clk(clk),.rst(rst),#INIT(27b0));
+  always {
+  if (start){pause.d = pause.q + 1;}else{pause.d=27b0;}
+    out = pause.q[25];
+  }
+}

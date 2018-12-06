@@ -1,0 +1,90 @@
+module lightup_3 (
+    input clk,  // clock
+    input rst,  // reset
+    output out,
+    output mole1Up,
+    output mole2Up,
+    output mole3Up,
+    output mole4Up,
+    output mole5Up,
+    output mole6Up,
+    output mole7Up,
+    output mole8Up,
+    output mole9Up,
+    output mole10Up,
+    output mole11Up,
+    output moleNum[6],
+    input timer1[7],
+    input timer2[7],
+    input timer3[7],
+    input timer4[7],
+    input timer5[7],
+    input timer6[7],
+    input timer7[7],
+    input timer8[7],
+    input timer9[7],
+    input timer10[7],
+    input timer11[7],
+    input pause
+  ) {
+//l1 = [36, 55, 40, 30, 12, 61, 53, 13, 19, 9, 9, 35]
+  always {
+    out = 0;
+if(pause==1){mole1Up=0;}else{if(timer1 == 7d41||
+timer1 == 7d45||
+timer1 == 7d56||
+timer1 == 7d73||
+timer1 == 7d29){mole1Up= 1;}else{mole1Up = 0;}}
+if(pause==2){mole2Up=0;}else{if(timer2 == 7d70||
+timer2 == 7d43||
+timer2 == 7d12||
+timer2 == 7d8||
+timer2 == 7d26){mole2Up= 1;}else{mole2Up = 0;}}
+if(pause==3){mole3Up=0;}else{if(timer3 == 7d47||
+timer3 == 7d17||
+timer3 == 7d5||
+timer3 == 7d27||
+timer3 == 7d35){mole3Up= 1;}else{mole3Up = 0;}}
+if(pause==4){mole4Up=0;}else{if(timer4 == 7d99||
+timer4 == 7d65||
+timer4 == 7d3||
+timer4 == 7d68||
+timer4 == 7d92){mole4Up= 1;}else{mole4Up = 0;}}
+if(pause==5){mole5Up=0;}else{if(timer5 == 7d17||
+timer5 == 7d34||
+timer5 == 7d50||
+timer5 == 7d1||
+timer5 == 7d59){mole5Up= 1;}else{mole5Up = 0;}}
+if(pause==6){mole6Up=0;}else{if(timer6 == 7d88||
+timer6 == 7d99||
+timer6 == 7d46||
+timer6 == 7d76||
+timer6 == 7d45){mole6Up= 1;}else{mole6Up = 0;}}
+if(pause==7){mole7Up=0;}else{if(timer7 == 7d90||
+timer7 == 7d64||
+timer7 == 7d26||
+timer7 == 7d32||
+timer7 == 7d79){mole7Up= 1;}else{mole7Up = 0;}}
+if(pause==8){mole8Up=0;}else{if(timer8 == 7d15||
+timer8 == 7d29||
+timer8 == 7d98||
+timer8 == 7d83||
+timer8 == 7d95){mole8Up= 1;}else{mole8Up = 0;}}
+if(pause==9){mole9Up=0;}else{if(timer9 == 7d84||
+timer9 == 7d40||
+timer9 == 7d61||
+timer9 == 7d94||
+timer9 == 7d33){mole9Up= 1;}else{mole9Up = 0;}}
+if(pause==10){mole10Up=0;}else{if(timer10 == 7d3||
+timer10 == 7d22||
+timer10 == 7d41||
+timer10 == 7d31||
+timer10 == 7d80){mole10Up= 1;}else{mole10Up = 0;}}
+if(pause==11){mole11Up=0;}else{if(timer11 == 7d30||
+timer11 == 7d80||
+timer11 == 7d55||
+timer11 == 7d17||
+timer11 == 7d21){mole11Up= 1;}else{mole11Up = 0;}}if(timer1>=100&&timer2>=100&&timer3>=100&&timer4>=100&&timer5>=100&&timer6>=100&&timer7>=100&&timer8>=100
+        &&timer9>=100&&timer10>=100&&timer11>=100){moleNum=6d63;}else{moleNum=0;}
+  }
+}

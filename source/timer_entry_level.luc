@@ -1,0 +1,122 @@
+module timer_entry_level (
+    input clk,  // clock
+    input rst,  // reset
+    output out,
+    output up1[7],
+    output up2[7],
+    output up3[7],
+    output up4[7],
+    output up5[7],
+    output up6[7],
+    output up7[7],
+    output up8[7],
+    output up9[7],
+    output up10[7],
+    output up11[7]
+  ) {
+dff slowclk[3](.clk(clk),.rst(rst));
+  dff counter1[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b100000000000000000000000));
+  dff counter2[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b110100000000000000000000));
+  dff counter3[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b010000000000000000000000));
+  dff counter4[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b100100000000000000000000));
+  dff counter5[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b110000000000000000000000));
+  dff counter6[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b101100000000000000000000));
+  dff counter7[24](.clk(slowclk.q[2]),.rst(rst),#INIT(240110000000000000000000000));
+  dff counter8[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b111100000000000000000000));
+  dff counter9[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b101000000000000000000000));
+  dff counter10[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b111000000000000000000000));
+  dff counter11[24](.clk(slowclk.q[2]),.rst(rst),#INIT(24b101000000000000000000000));
+  dff dff1[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff2[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff3[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff4[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff5[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff6[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff7[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff8[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff9[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff10[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  dff dff11[7](.clk(slowclk.q[2]),.rst(rst),#INIT(6d0));
+  
+  dff holder1[24](.clk(clk),.rst(rst));
+  dff holder2[24](.clk(clk),.rst(rst));
+  dff holder3[24](.clk(clk),.rst(rst));
+  dff holder4[24](.clk(clk),.rst(rst));
+  dff holder5[24](.clk(clk),.rst(rst));
+  dff holder6[24](.clk(clk),.rst(rst));
+  dff holder7[24](.clk(clk),.rst(rst));
+  dff holder8[24](.clk(clk),.rst(rst));
+  dff holder9[24](.clk(clk),.rst(rst));
+  dff holder10[24](.clk(clk),.rst(rst));
+  dff holder11[24](.clk(clk),.rst(rst));
+  always {
+    out = 0;
+    holder1.d = counter1.q+1;
+    if (holder1.q[23]!=counter1.q[23]){
+    dff1.d = dff1.q+1;}
+      
+    holder2.d = counter2.q+1;
+    if (holder2.q[23]!=counter2.q[23]){
+    dff2.d = dff2.q+1;}
+      
+    holder3.d = counter3.q+1;
+    if (holder3.q[23]!=counter3.q[23]){
+    dff3.d = dff3.q+1;}
+      
+    holder4.d = counter4.q+1;
+    if (holder4.q[23]!=counter4.q[23]){
+    dff4.d = dff4.q+1;}
+      
+    holder5.d = counter5.q+1;
+    if (holder5.q[23]!=counter5.q[23]){
+    dff5.d = dff5.q+1;}
+      
+    holder6.d = counter6.q+1;
+    if (holder6.q[23]!=counter6.q[23]){
+    dff6.d = dff6.q+1;}
+      
+    holder7.d = counter7.q+1;
+    if (holder7.q[23]!=counter7.q[23]){
+    dff7.d = dff7.q+1;}
+      
+    holder8.d = counter8.q+1;
+    if (holder8.q[23]!=counter8.q[23]){
+    dff8.d = dff8.q+1;}
+      
+    holder9.d = counter9.q+1;
+    if (holder9.q[23]!= counter9.q[23]){
+    dff9.d = dff9.q+1;}
+      
+    holder10.d = counter10.q+1;
+    if (holder10.q[23]!=counter10.q[23]){
+    dff10.d = dff10.q+1;}
+      
+    holder11.d = counter11.q+1;
+    if (holder11.q[23]!=counter11.q[23]){
+    dff11.d = dff11.q+1;}
+    
+    counter1.d = counter1.q + 1;
+    counter2.d = counter2.q + 1;
+    counter3.d = counter3.q + 1;
+    counter4.d = counter4.q + 1;
+    counter5.d = counter5.q + 1;
+    counter6.d = counter6.q + 1;
+    counter7.d = counter7.q + 1;
+    counter8.d = counter8.q + 1;
+    counter9.d = counter9.q + 1;
+    counter10.d = counter10.q + 1;
+    counter11.d = counter11.q + 1;
+    up1 = dff1.q;
+    up2 = dff2.q;
+    up3 = dff3.q;
+    up4 = dff4.q;
+    up5 = dff5.q;
+    up6 = dff6.q;
+    up7 = dff7.q;
+    up8 = dff8.q;
+    up9 = dff9.q;
+    up10 = dff10.q;
+    up11 = dff11.q;
+    slowclk.d = slowclk.q+1;
+  }
+}

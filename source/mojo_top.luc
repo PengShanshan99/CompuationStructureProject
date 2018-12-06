@@ -1,0 +1,851 @@
+module mojo_top (
+    input clk,              // 50MHz clock
+    input rst_n,            // reset button (active low)
+    output led [8],         // 8 user controllable LEDs
+    input cclk,             // configuration clock, AVR ready when high
+    output spi_miso,        // AVR SPI MISO
+    input spi_ss,           // AVR SPI Slave Select
+    input spi_mosi,         // AVR SPI MOSI
+    input spi_sck,          // AVR SPI Clock
+    output spi_channel [4], // AVR general purpose pins (used by default to select ADC channel)
+    input avr_tx,           // AVR TX (FPGA RX)
+    output avr_rx,          // AVR RX (FPGA TX)
+    input avr_rx_busy,      // AVR RX buffer full
+    output io_led [3][8],   // LEDs on IO Shield
+    output io_seg [8],      // 7-segment LEDs on IO Shield
+    output io_sel [4],      // Digit select on IO Shield
+    input io_button [5],    // 5 buttons on IO Shield
+    input io_dip [3][8],     // DIP switches on IO Shield
+    output mole2,
+    output mole3,
+    output mole4,
+    output mole5,
+    output mole6,
+    output mole7,
+    output mole8,
+    output mole9,
+    output mole10,
+    output mole11,
+    input mallet2,
+    input mallet3,
+    input mallet4,
+    input mallet5,
+    input mallet6,
+    input mallet7,
+    input mallet8,
+    input mallet9,
+    input mallet10,
+    input mallet11,
+    output point1,
+    output point2,
+    output point3,
+    output point4,
+    output point5,
+    output point6,
+    output point7,
+    output point8,
+    output point9,
+    output point10
+  ) {
+  
+  sig rst;                  // reset signal
+  sig inPause;
+  .clk(clk) {
+    // The reset conditioner is used to synchronize the reset signal to the FPGA
+    // clock. This ensures the entire FPGA comes out of reset at the same time.
+    reset_conditioner reset_cond;
+    
+    
+    .rst(rst){
+      lightup_1 mylightup_1;
+      lightup_2 mylightup_2;
+      lightup_3 mylightup_3;
+      lightup_4 mylightup_4;
+      lightup_5 mylightup_5;
+      timer_easy mytimer_easy;
+      timer_entry_level mytimer_entry;
+      dff debug[8](#INIT(8b11111111));
+      
+  dff points[6](.clk(clk),.rst(rst),#INIT(6b000000));
+      fsm time_keeper(.clk(clk),.rst(rst)) = {TO_BEGIN, ADDPOINT, CLEAR, PLAYING1,PLAYING2,PLAYING3,PLAYING4,PLAYING5};
+      timeKeeper myTimeKeeper;
+    }
+  }
+  alu aluadder;
+  alu alushifter;
+  alu alucomplt1;
+  alu alucomplt2;
+  alu alucomplt3;
+  alu alucomplt4;
+  alu alucomplt5;
+  alu alucomplt6;
+  alu alucomplt7;
+  alu alucomplt8;
+  alu alucomplt9;
+  alu alucomplt10;
+  alu aluand1;
+  alu aluand2;
+  alu aluand3;
+  alu aluand4;
+  alu aluand5;
+  alu aluand6;
+  alu aluand7;
+  alu aluand8;
+  alu aluand9;
+  alu aluand10;
+   var difficulty;
+  var pauseMole;
+  singlePause myPause(.clk(clk),.rst(rst));
+  always {
+    reset_cond.in = ~rst_n; // input raw inverted reset signal
+    rst = reset_cond.out;   // conditioned reset
+    spi_miso = bz;          // not using SPI
+    spi_channel = bzzzz;    // not using flags
+    avr_rx = bz;            // not using serial port
+    io_seg = 8hff;          // turn segments off
+    io_sel = 4hf;
+    io_led[2] = 8h00;
+    io_led[1] = 8h00;
+    io_led[0] = 8h00;
+    
+    aluadder.a = 0;
+    aluadder.b = 0;
+    aluadder.alufn = 000000;
+    alushifter.a = 0;
+    alushifter.b = 0;
+    alushifter.alufn = 100000;
+    
+    aluand1.a = 0;
+    aluand1.b = 0;
+    aluand1.alufn = 011000;
+    aluand2.a = 0;
+    aluand2.b = 0;
+    aluand2.alufn = 011000;
+    aluand3.a = 0;
+    aluand3.b = 0;
+    aluand3.alufn = 011000;
+    aluand4.a = 0;
+    aluand4.b = 0;
+    aluand4.alufn = 011000;
+    aluand5.a = 0;
+    aluand5.b = 0;
+    aluand5.alufn = 011000;
+    aluand6.a = 0;
+    aluand6.b = 0;
+    aluand6.alufn = 011000;
+    aluand7.a = 0;
+    aluand7.b = 0;
+    aluand7.alufn = 011000;
+    aluand8.a = 0;
+    aluand8.b = 0;
+    aluand8.alufn = 011000;
+    aluand9.a = 0;
+    aluand9.b = 0;
+    aluand9.alufn = 011000;
+    aluand10.a = 0;
+    aluand10.b = 0;
+    aluand10.alufn = 011000;
+    aluand1.a = 0;
+    aluand1.b = 0;
+    aluand1.alufn = 011000;
+    pauseMole = 0;
+    myTimeKeeper.moleNumber = 0;
+    mole2 = 0;
+    mole3 = 0;
+    mole4 = 0;
+    mole5 = 0;
+    mole6 = 0;
+    mole7 = 0;
+    mole8 = 0;
+    mole9 = 0;
+    mole10 = 0;
+    mole11 = 0;
+    myTimeKeeper.start = 0;
+    
+    
+    led = debug.q;
+    //mole1 = 0;
+    
+    mylightup_1.timer1=0;
+mylightup_1.timer2=0;
+mylightup_1.timer3=0;
+mylightup_1.timer4=0;
+mylightup_1.timer5=0;
+mylightup_1.timer6=0;
+mylightup_1.timer7=0;
+mylightup_1.timer8=0;
+mylightup_1.timer9=0;
+mylightup_1.timer10=0;
+mylightup_1.timer11=0;
+    mylightup_2.timer1=0;
+mylightup_2.timer2=0;
+mylightup_2.timer3=0;
+mylightup_2.timer4=0;
+mylightup_2.timer5=0;
+mylightup_2.timer6=0;
+mylightup_2.timer7=0;
+mylightup_2.timer8=0;
+mylightup_2.timer9=0;
+mylightup_2.timer10=0;
+mylightup_2.timer11=0;
+    mylightup_3.timer1=0;
+mylightup_3.timer2=0;
+mylightup_3.timer3=0;
+mylightup_3.timer4=0;
+mylightup_3.timer5=0;
+mylightup_3.timer6=0;
+mylightup_3.timer7=0;
+mylightup_3.timer8=0;
+mylightup_3.timer9=0;
+mylightup_3.timer10=0;
+mylightup_3.timer11=0;
+    mylightup_4.timer1=0;
+mylightup_4.timer2=0;
+mylightup_4.timer3=0;
+mylightup_4.timer4=0;
+mylightup_4.timer5=0;
+mylightup_4.timer6=0;
+mylightup_4.timer7=0;
+mylightup_4.timer8=0;
+mylightup_4.timer9=0;
+mylightup_4.timer10=0;
+mylightup_4.timer11=0;
+    mylightup_5.timer1=0;
+mylightup_5.timer2=0;
+mylightup_5.timer3=0;
+mylightup_5.timer4=0;
+mylightup_5.timer5=0;
+mylightup_5.timer6=0;
+mylightup_5.timer7=0;
+mylightup_5.timer8=0;
+mylightup_5.timer9=0;
+mylightup_5.timer10=0;
+mylightup_5.timer11=0;
+    mylightup_1.pause = 0;
+    mylightup_2.pause = 0;
+    mylightup_3.pause = 0;
+    mylightup_4.pause = 0;
+    mylightup_5.pause = 0;
+    inPause = 0;
+    myPause.start = 0;
+    led = 8b00110011;
+    
+    alucomplt1.a = 1;
+    alucomplt1.b = points.q;
+    alucomplt1.alufn = 110111;
+    alucomplt2.a = 3;
+    alucomplt2.b = points.q;
+    alucomplt2.alufn = 110111;
+    alucomplt4.a = 4;
+    alucomplt4.b = points.q;
+    alucomplt4.alufn = 110111;
+    alucomplt5.a = 5;
+    alucomplt5.b = points.q;
+    alucomplt5.alufn = 110111;
+    alucomplt6.a = 6;
+    alucomplt6.b = points.q;
+    alucomplt6.alufn = 110111;
+    alucomplt7.a = 7;
+    alucomplt7.b = points.q;
+    alucomplt7.alufn = 110111;
+    alucomplt8.a = 8;
+    alucomplt8.b = points.q;
+    alucomplt8.alufn = 110111;
+    alucomplt9.a = 9;
+    alucomplt9.b = points.q;
+    alucomplt9.alufn = 110111;
+    alucomplt10.a = 10;
+    alucomplt10.b = points.q;
+    alucomplt10.alufn = 110111;
+    alucomplt3.a = 11;
+    alucomplt3.b = points.q;
+    alucomplt3.alufn = 110111;
+   
+    io_led[0][1] = (alucomplt1.result);
+        io_led[0][2] = (alucomplt2.result);
+        io_led[0][3] = (alucomplt3.result);
+        io_led[0][4] = (alucomplt4.result);
+        io_led[0][5] = (alucomplt5.result);
+        io_led[0][6] = (alucomplt6.result);
+        io_led[0][7] = (alucomplt7.result);
+        io_led[1][0] = (alucomplt8.result);
+        io_led[1][1] = (alucomplt9.result);
+        io_led[1][2] = (alucomplt10.result);
+    point1 = (alucomplt1.result);
+        point2 = (alucomplt2.result);
+        point3 = (alucomplt3.result);
+        point4 = (alucomplt4.result);
+        point5 = (alucomplt5.result);
+        point6 = (alucomplt6.result);
+        point7 = (alucomplt7.result);
+        point8 = (alucomplt8.result);
+        point9 = (alucomplt9.result);
+        point10 = (alucomplt10.result);
+    
+    
+    case(time_keeper.q){
+        
+      time_keeper.TO_BEGIN:
+      debug.d = 8b11111111;
+        if (mallet2==1){difficulty = 1; 
+      time_keeper.d = time_keeper.PLAYING1;}
+        if (mallet3 ==1){difficulty = 2; 
+      time_keeper.d = time_keeper.PLAYING2;}
+        if (mallet4 == 1){difficulty = 3; 
+      time_keeper.d = time_keeper.PLAYING3;}
+        if (mallet5 == 1){difficulty = 4; 
+     time_keeper.d = time_keeper.PLAYING4;}
+        if (mallet6 == 1){difficulty = 5; 
+      time_keeper.d = time_keeper.PLAYING5;}
+          
+        time_keeper.ADDPOINT:
+      if(difficulty==1){
+        mylightup_1.timer1 = mytimer_easy.up1;
+    mylightup_1.timer2 = mytimer_entry.up2;
+    mylightup_1.timer3 = mytimer_entry.up3;
+    mylightup_1.timer4 = mytimer_entry.up4;
+    mylightup_1.timer5 = mytimer_entry.up5;
+    mylightup_1.timer6 = mytimer_entry.up6;
+    mylightup_1.timer7 = mytimer_entry.up7;
+    mylightup_1.timer8 = mytimer_entry.up8;
+    mylightup_1.timer9 = mytimer_entry.up9;
+    mylightup_1.timer10 = mytimer_entry.up10;
+    mylightup_1.timer11 = mytimer_entry.up11;
+    //mole1 = mylightup.mole1Up;
+    mole2 = mylightup_1.mole2Up;
+    mole3 = mylightup_1.mole3Up;
+    mole4 = mylightup_1.mole4Up;
+    mole5 = mylightup_1.mole5Up;
+    mole6 = mylightup_1.mole6Up;
+    mole7 = mylightup_1.mole7Up;
+    mole8 = mylightup_1.mole8Up;
+    mole9 = mylightup_1.mole9Up;
+    mole10 = mylightup_1.mole10Up;
+    mole11 = mylightup_1.mole11Up;}
+        if(difficulty==2){
+        mylightup_2.timer1 = mytimer_easy.up1;
+    mylightup_2.timer2 = mytimer_entry.up2;
+    mylightup_2.timer3 = mytimer_entry.up3;
+    mylightup_2.timer4 = mytimer_entry.up4;
+    mylightup_2.timer5 = mytimer_entry.up5;
+    mylightup_2.timer6 = mytimer_entry.up6;
+    mylightup_2.timer7 = mytimer_entry.up7;
+    mylightup_2.timer8 = mytimer_entry.up8;
+    mylightup_2.timer9 = mytimer_entry.up9;
+    mylightup_2.timer10 = mytimer_entry.up10;
+    mylightup_2.timer11 = mytimer_entry.up11;
+    //mole1 = mylightup.mole1Up;
+    mole2 = mylightup_2.mole2Up;
+    mole3 = mylightup_2.mole3Up;
+    mole4 = mylightup_2.mole4Up;
+    mole5 = mylightup_2.mole5Up;
+    mole6 = mylightup_2.mole6Up;
+    mole7 = mylightup_2.mole7Up;
+    mole8 = mylightup_2.mole8Up;
+    mole9 = mylightup_2.mole9Up;
+    mole10 = mylightup_2.mole10Up;
+    mole11 = mylightup_2.mole11Up;}
+        if(difficulty==3){
+        mylightup_3.timer1 = mytimer_easy.up1;
+    mylightup_3.timer2 = mytimer_easy.up2;
+    mylightup_3.timer3 = mytimer_easy.up3;
+    mylightup_3.timer4 = mytimer_easy.up4;
+    mylightup_3.timer5 = mytimer_easy.up5;
+    mylightup_3.timer6 = mytimer_easy.up6;
+    mylightup_3.timer7 = mytimer_easy.up7;
+    mylightup_3.timer8 = mytimer_easy.up8;
+    mylightup_3.timer9 = mytimer_easy.up9;
+    mylightup_3.timer10 = mytimer_easy.up10;
+    mylightup_3.timer11 = mytimer_easy.up11;
+    //mole1 = mylightup.mole1Up;
+    mole2 = mylightup_3.mole2Up;
+    mole3 = mylightup_3.mole3Up;
+    mole4 = mylightup_3.mole4Up;
+    mole5 = mylightup_3.mole5Up;
+    mole6 = mylightup_3.mole6Up;
+    mole7 = mylightup_3.mole7Up;
+    mole8 = mylightup_3.mole8Up;
+    mole9 = mylightup_3.mole9Up;
+    mole10 = mylightup_3.mole10Up;
+    mole11 = mylightup_3.mole11Up;}
+        if(difficulty==4){
+        mylightup_4.timer1 = mytimer_easy.up1;
+    mylightup_4.timer2 = mytimer_easy.up2;
+    mylightup_4.timer3 = mytimer_easy.up3;
+    mylightup_4.timer4 = mytimer_easy.up4;
+    mylightup_4.timer5 = mytimer_easy.up5;
+    mylightup_4.timer6 = mytimer_easy.up6;
+    mylightup_4.timer7 = mytimer_easy.up7;
+    mylightup_4.timer8 = mytimer_easy.up8;
+    mylightup_4.timer9 = mytimer_easy.up9;
+    mylightup_4.timer10 = mytimer_easy.up10;
+    mylightup_4.timer11 = mytimer_easy.up11;
+    //mole1 = mylightup.mole1Up;
+    mole2 = mylightup_4.mole2Up;
+    mole3 = mylightup_4.mole3Up;
+    mole4 = mylightup_4.mole4Up;
+    mole5 = mylightup_4.mole5Up;
+    mole6 = mylightup_4.mole6Up;
+    mole7 = mylightup_4.mole7Up;
+    mole8 = mylightup_4.mole8Up;
+    mole9 = mylightup_4.mole9Up;
+    mole10 = mylightup_4.mole10Up;
+    mole11 = mylightup_4.mole11Up;
+   }
+        if(difficulty==5){
+        mylightup_5.timer1 = mytimer_easy.up1;
+    mylightup_5.timer2 = mytimer_easy.up2;
+    mylightup_5.timer3 = mytimer_easy.up3;
+    mylightup_5.timer4 = mytimer_easy.up4;
+    mylightup_5.timer5 = mytimer_easy.up5;
+    mylightup_5.timer6 = mytimer_easy.up6;
+    mylightup_5.timer7 = mytimer_easy.up7;
+    mylightup_5.timer8 = mytimer_easy.up8;
+    mylightup_5.timer9 = mytimer_easy.up9;
+    mylightup_5.timer10 = mytimer_easy.up10;
+    mylightup_5.timer11 = mytimer_easy.up11;
+    //mole1 = mylightup.mole1Up;
+    mole2 = mylightup_5.mole2Up;
+    mole3 = mylightup_5.mole3Up;
+    mole4 = mylightup_5.mole4Up;
+    mole5 = mylightup_5.mole5Up;
+    mole6 = mylightup_5.mole6Up;
+    mole7 = mylightup_5.mole7Up;
+    mole8 = mylightup_5.mole8Up;
+    mole9 = mylightup_5.mole9Up;
+    mole10 = mylightup_5.mole10Up;
+    mole11 = mylightup_5.mole11Up;}
+      led = 8b11100000;
+        io_led[2][1] = inPause;
+        io_led[2][2]=1;
+        io_led[2][3]=1;
+        mylightup_1.pause = pauseMole; myPause.start = 1; inPause = 1;
+        if(myPause.out==1){
+        inPause=0;pauseMole = 0;myPause.start=0;
+        if(difficulty ==1){time_keeper.d=time_keeper.PLAYING1;}
+        if(difficulty ==2){time_keeper.d=time_keeper.PLAYING2;}
+          if(difficulty ==3){time_keeper.d=time_keeper.PLAYING3;}
+          if(difficulty ==4){time_keeper.d=time_keeper.PLAYING4;}
+          if(difficulty ==5){time_keeper.d=time_keeper.PLAYING5;}
+        }
+          
+        
+      time_keeper.CLEAR:
+        led = 8b10101010;
+        if (mallet2){rst = 1;}
+        
+      
+      time_keeper.PLAYING1:
+      led= 8b00000001;
+        myTimeKeeper.start = 1;
+        if(myTimeKeeper.timeUp){time_keeper.d = time_keeper.CLEAR;}
+        io_led[0][0] = myTimeKeeper.timeUp;
+        myTimeKeeper.moleNumber = mylightup_1.moleNum;
+    mylightup_1.timer1 = mytimer_entry.up1;
+    mylightup_1.timer2 = mytimer_entry.up2;
+    mylightup_1.timer3 = mytimer_entry.up3;
+    mylightup_1.timer4 = mytimer_entry.up4;
+    mylightup_1.timer5 = mytimer_entry.up5;
+    mylightup_1.timer6 = mytimer_entry.up6;
+    mylightup_1.timer7 = mytimer_entry.up7;
+    mylightup_1.timer8 = mytimer_entry.up8;
+    mylightup_1.timer9 = mytimer_entry.up9;
+    mylightup_1.timer10 = mytimer_entry.up10;
+    mylightup_1.timer11 = mytimer_entry.up11;
+    //mole1 = mylightup.mole1Up;
+    mole2 = mylightup_1.mole2Up;
+    mole3 = mylightup_1.mole3Up;
+    mole4 = mylightup_1.mole4Up;
+    mole5 = mylightup_1.mole5Up;
+    mole6 = mylightup_1.mole6Up;
+    mole7 = mylightup_1.mole7Up;
+    mole8 = mylightup_1.mole8Up;
+    mole9 = mylightup_1.mole9Up;
+    mole10 = mylightup_1.mole10Up;
+    mole11 = mylightup_1.mole11Up;
+   
+    
+        aluand1.a = mallet2;
+        aluand1.b = mylightup_1.mole2Up;
+        if (aluand1.result==1){points.d = points.q+1;mole2 = 0;pauseMole = 2;
+        time_keeper.d = time_keeper.ADDPOINT;}
+            
+        aluand2.a = mallet3;
+        aluand2.b = mylightup_1.mole3Up;
+        if (aluand2.result==1){points.d = points.q+1;mole3 = 0;pauseMole = 3;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand3.a = mallet4;
+        aluand3.b = mylightup_1.mole4Up;
+        if (aluand3.result==1){
+          alushifter.a = points.q;
+          alushifter.b = 1;
+          points.d = alushifter.result[5:0];
+          mole4 = 0;pauseMole = 4;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand4.a=mallet5;
+aluand4.b=mylightup_1.mole5Up;
+if(aluand4.result==1){points.d = points.q+1;mole5 = 0;pauseMole = 5;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand5.a=mallet6;
+aluand5.b=mylightup_1.mole6Up;
+if(aluand5.result==1){points.d = points.q+1;mole6 = 0;pauseMole = 6;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand6.a=mallet7;
+aluand6.b=mylightup_1.mole7Up;
+if(aluand6.result==1){points.d = points.q+1;mole7 = 0;pauseMole = 7;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand7.a=mallet8;
+aluand7.b=mylightup_1.mole8Up;
+if(aluand7.result==1){points.d = points.q+1;mole8 = 0;pauseMole = 8;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand8.a=mallet9;
+aluand8.b=mylightup_1.mole9Up;
+if(aluand8.result==1){points.d = points.q+1;mole9 = 0;pauseMole = 9;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand9.a=mallet10;
+aluand9.b=mylightup_1.mole10Up;
+if(aluand9.result==1){points.d = points.q+1;mole10 = 0;pauseMole = 10;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand10.a=mallet11;
+aluand10.b=mylightup_1.mole11Up;
+if(aluand10.result==1){points.d = points.q+1;mole11 = 0;pauseMole = 11;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+          
+        time_keeper.PLAYING2:
+      debug.d = 0;
+      myTimeKeeper.start = 1;
+       if(myTimeKeeper.timeUp){time_keeper.d = time_keeper.CLEAR;}
+        myTimeKeeper.moleNumber = mylightup_2.moleNum;
+    mylightup_2.timer1 = mytimer_entry.up1;
+    mylightup_2.timer2 = mytimer_entry.up2;
+    mylightup_2.timer3 = mytimer_entry.up3;
+    mylightup_2.timer4 = mytimer_entry.up4;
+    mylightup_2.timer5 = mytimer_entry.up5;
+    mylightup_2.timer6 = mytimer_entry.up6;
+    mylightup_2.timer7 = mytimer_entry.up7;
+    mylightup_2.timer8 = mytimer_entry.up8;
+    mylightup_2.timer9 = mytimer_entry.up9;
+    mylightup_2.timer10 = mytimer_entry.up10;
+    mylightup_2.timer11 = mytimer_entry.up11;
+    //mole1 = mylightup.mole1Up;
+    mole2 = mylightup_2.mole2Up;
+    mole3 = mylightup_2.mole3Up;
+    mole4 = mylightup_2.mole4Up;
+    mole5 = mylightup_2.mole5Up;
+    mole6 = mylightup_2.mole6Up;
+    mole7 = mylightup_2.mole7Up;
+    mole8 = mylightup_2.mole8Up;
+    mole9 = mylightup_2.mole9Up;
+    mole10 = mylightup_2.mole10Up;
+    mole11 = mylightup_2.mole11Up;
+   
+   aluand1.a=mallet2;
+aluand1.b=mylightup_2.mole2Up;
+if(aluand1.result==1){points.d = points.q+1;mole2 = 0;pauseMole = 2;
+        time_keeper.d = time_keeper.ADDPOINT;}
+            
+        aluand2.a=mallet3;
+aluand2.b=mylightup_2.mole3Up;
+if(aluand2.result==1){points.d = points.q+1;mole3 = 0;pauseMole = 3;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand3.a=mallet4;
+aluand3.b=mylightup_2.mole4Up;
+if(aluand3.result==1){alushifter.a = points.q;
+          alushifter.b = 1;
+          points.d = alushifter.result[5:0];mole4 = 0;pauseMole = 4;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand4.a=mallet5;
+aluand4.b=mylightup_2.mole5Up;
+if(aluand4.result==1){points.d = points.q+1;mole5 = 0;pauseMole = 5;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand5.a=mallet6;
+aluand5.b=mylightup_2.mole6Up;
+if(aluand5.result==1){points.d = points.q+1;mole6 = 0;pauseMole = 6;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand6.a=mallet7;
+aluand6.b=mylightup_2.mole7Up;
+if(aluand6.result==1){points.d = points.q+1;mole7 = 0;pauseMole = 7;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand7.a=mallet8;
+aluand7.b=mylightup_2.mole8Up;
+if(aluand7.result==1){points.d = points.q+1;mole8 = 0;pauseMole = 8;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand8.a=mallet9;
+aluand8.b=mylightup_2.mole9Up;
+if(aluand8.result==1){points.d = points.q+1;mole9 = 0;pauseMole = 9;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand9.a=mallet10;
+aluand9.b=mylightup_2.mole10Up;
+if(aluand9.result==1){points.d = points.q+1;mole10 = 0;pauseMole = 10;
+        time_keeper.d = time_keeper.ADDPOINT;}
+          
+        aluand10.a=mallet11;
+aluand10.b=mylightup_2.mole11Up;
+if(aluand10.result==1){points.d = points.q+1;mole11 = 0;pauseMole = 11;
+        time_keeper.d = time_keeper.ADDPOINT;}
+        time_keeper.PLAYING3:
+      debug.d = 0;
+      myTimeKeeper.start = 1;
+       if(myTimeKeeper.timeUp){time_keeper.d = time_keeper.CLEAR;}
+        myTimeKeeper.moleNumber = mylightup_3.moleNum;
+    mylightup_3.timer1 = mytimer_easy.up1;
+    mylightup_3.timer2 = mytimer_easy.up2;
+    mylightup_3.timer3 = mytimer_easy.up3;
+    mylightup_3.timer4 = mytimer_easy.up4;
+    mylightup_3.timer5 = mytimer_easy.up5;
+    mylightup_3.timer6 = mytimer_easy.up6;
+    mylightup_3.timer7 = mytimer_easy.up7;
+    mylightup_3.timer8 = mytimer_easy.up8;
+    mylightup_3.timer9 = mytimer_easy.up9;
+    mylightup_3.timer10 = mytimer_easy.up10;
+    mylightup_3.timer11 = mytimer_easy.up11;
+    //mole1 = mylightup.mole1Up;
+    mole2 = mylightup_3.mole2Up;
+    mole3 = mylightup_3.mole3Up;
+    mole4 = mylightup_3.mole4Up;
+    mole5 = mylightup_3.mole5Up;
+    mole6 = mylightup_3.mole6Up;
+    mole7 = mylightup_3.mole7Up;
+    mole8 = mylightup_3.mole8Up;
+    mole9 = mylightup_3.mole9Up;
+    mole10 = mylightup_3.mole10Up;
+    mole11 = mylightup_3.mole11Up;
+   
+
+
+aluand2.a=mallet3;
+aluand2.b=mylightup_3.mole3Up;
+if(aluand2.result==1){points.d=points.q+1;mole2=0;pauseMole=2;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand3.a=mallet4;
+aluand3.b=mylightup_3.mole4Up;
+if(aluand3.result==1){points.d=points.q+1;mole3=0;pauseMole=3;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand4.a=mallet5;
+aluand4.b=mylightup_3.mole5Up;
+if(aluand4.result==1){points.d=points.q+1;mole4=0;pauseMole=4;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand5.a=mallet6;
+aluand5.b=mylightup_3.mole6Up;
+if(aluand5.result==1){points.d=points.q+1;mole5=0;pauseMole=5;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand6.a=mallet7;
+aluand6.b=mylightup_3.mole7Up;
+if(aluand6.result==1){points.d=points.q+1;mole6=0;pauseMole=6;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand7.a=mallet8;
+aluand7.b=mylightup_3.mole8Up;
+if(aluand7.result==1){points.d=points.q+1;mole7=0;pauseMole=7;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand8.a=mallet9;
+aluand8.b=mylightup_3.mole9Up;
+if(aluand8.result==1){points.d=points.q+1;mole8=0;pauseMole=8;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand9.a=mallet10;
+aluand9.b=mylightup_3.mole10Up;
+if(aluand9.result==1){points.d=points.q+1;mole9=0;pauseMole=9;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand10.a=mallet11;
+aluand10.b=mylightup_3.mole11Up;
+if(aluand10.result==1){points.d=points.q+1;mole10=0;pauseMole=10;
+time_keeper.d=time_keeper.ADDPOINT;}
+        
+        time_keeper.PLAYING4:
+      debug.d=0;
+      myTimeKeeper.start = 1;
+       if(myTimeKeeper.timeUp){time_keeper.d = time_keeper.CLEAR;}
+        myTimeKeeper.moleNumber = mylightup_4.moleNum;
+    mylightup_4.timer1 = mytimer_easy.up1;
+    mylightup_4.timer2 = mytimer_easy.up2;
+    mylightup_4.timer3 = mytimer_easy.up3;
+    mylightup_4.timer4 = mytimer_easy.up4;
+    mylightup_4.timer5 = mytimer_easy.up5;
+    mylightup_4.timer6 = mytimer_easy.up6;
+    mylightup_4.timer7 = mytimer_easy.up7;
+    mylightup_4.timer8 = mytimer_easy.up8;
+    mylightup_4.timer9 = mytimer_easy.up9;
+    mylightup_4.timer10 = mytimer_easy.up10;
+    mylightup_4.timer11 = mytimer_easy.up11;
+    //mole1 = mylightup.mole1Up;
+    mole2 = mylightup_4.mole2Up;
+    mole3 = mylightup_4.mole3Up;
+    mole4 = mylightup_4.mole4Up;
+    mole5 = mylightup_4.mole5Up;
+    mole6 = mylightup_4.mole6Up;
+    mole7 = mylightup_4.mole7Up;
+    mole8 = mylightup_4.mole8Up;
+    mole9 = mylightup_4.mole9Up;
+    mole10 = mylightup_4.mole10Up;
+    mole11 = mylightup_4.mole11Up;
+   
+    
+
+aluand2.a=mallet3;
+aluand2.b=mylightup_4.mole3Up;
+if(aluand2.result==1){points.d=points.q+1;mole2=0;pauseMole=2;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand3.a=mallet4;
+aluand3.b=mylightup_4.mole4Up;
+if(aluand3.result==1){points.d=points.q+1;mole3=0;pauseMole=3;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand4.a=mallet5;
+aluand4.b=mylightup_4.mole5Up;
+if(aluand4.result==1){points.d=points.q+1;mole4=0;pauseMole=4;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand5.a=mallet6;
+aluand5.b=mylightup_4.mole6Up;
+if(aluand5.result==1){points.d=points.q+1;mole5=0;pauseMole=5;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand6.a=mallet7;
+aluand6.b=mylightup_4.mole7Up;
+if(aluand6.result==1){points.d=points.q+1;mole6=0;pauseMole=6;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand7.a=mallet8;
+aluand7.b=mylightup_4.mole8Up;
+if(aluand7.result==1){points.d=points.q+1;mole7=0;pauseMole=7;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand8.a=mallet9;
+aluand8.b=mylightup_4.mole9Up;
+if(aluand8.result==1){points.d=points.q+1;mole8=0;pauseMole=8;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand9.a=mallet10;
+aluand9.b=mylightup_4.mole10Up;
+if(aluand9.result==1){points.d=points.q+1;mole9=0;pauseMole=9;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand10.a=mallet11;
+aluand10.b=mylightup_4.mole11Up;
+if(aluand10.result==1){points.d=points.q+1;mole10=0;pauseMole=10;
+time_keeper.d=time_keeper.ADDPOINT;}
+        
+        time_keeper.PLAYING5:
+      debug.d = 0;
+      myTimeKeeper.start = 1;
+       if(myTimeKeeper.timeUp){time_keeper.d = time_keeper.CLEAR;}
+        myTimeKeeper.moleNumber = mylightup_5.moleNum;
+    mylightup_5.timer1 = mytimer_easy.up1;
+    mylightup_5.timer2 = mytimer_easy.up2;
+    mylightup_5.timer3 = mytimer_easy.up3;
+    mylightup_5.timer4 = mytimer_easy.up4;
+    mylightup_5.timer5 = mytimer_easy.up5;
+    mylightup_5.timer6 = mytimer_easy.up6;
+    mylightup_5.timer7 = mytimer_easy.up7;
+    mylightup_5.timer8 = mytimer_easy.up8;
+    mylightup_5.timer9 = mytimer_easy.up9;
+    mylightup_5.timer10 = mytimer_easy.up10;
+    mylightup_5.timer11 = mytimer_easy.up11;
+    mole2 = mylightup_5.mole2Up;
+    mole3 = mylightup_5.mole3Up;
+    mole4 = mylightup_5.mole4Up;
+    mole5 = mylightup_5.mole5Up;
+    mole6 = mylightup_5.mole6Up;
+    mole7 = mylightup_5.mole7Up;
+    mole8 = mylightup_5.mole8Up;
+    mole9 = mylightup_5.mole9Up;
+    mole10 = mylightup_5.mole10Up;
+    mole11 = mylightup_5.mole11Up;
+   
+aluand2.a=mallet3;
+aluand2.b=mylightup_5.mole3Up;
+if(aluand2.result==1){points.d=points.q+1;mole2=0;pauseMole=2;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand3.a=mallet4;
+aluand3.b=mylightup_5.mole4Up;
+if(aluand3.result==1){points.d=points.q+1;mole3=0;pauseMole=3;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand4.a=mallet5;
+aluand4.b=mylightup_5.mole5Up;
+if(aluand4.result==1){points.d=points.q+1;mole4=0;pauseMole=4;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand5.a=mallet6;
+aluand5.b=mylightup_5.mole6Up;
+if(aluand5.result==1){points.d=points.q+1;mole5=0;pauseMole=5;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand6.a=mallet7;
+aluand6.b=mylightup_5.mole7Up;
+if(aluand6.result==1){points.d=points.q+1;mole6=0;pauseMole=6;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand7.a=mallet8;
+aluand7.b=mylightup_5.mole8Up;
+if(aluand7.result==1){points.d=points.q+1;mole7=0;pauseMole=7;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand8.a=mallet9;
+aluand8.b=mylightup_5.mole9Up;
+if(aluand8.result==1){points.d=points.q+1;mole8=0;pauseMole=8;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand9.a=mallet10;
+aluand9.b=mylightup_5.mole10Up;
+if(aluand9.result==1){points.d=points.q+1;mole9=0;pauseMole=9;
+time_keeper.d=time_keeper.ADDPOINT;}
+
+
+aluand10.a=mallet11;
+aluand10.b=mylightup_5.mole11Up;
+if(aluand10.result==1){points.d=points.q+1;mole10=0;pauseMole=10;
+time_keeper.d=time_keeper.ADDPOINT;}
+    }
+      
+           
+  }
+}

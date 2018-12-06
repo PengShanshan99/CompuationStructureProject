@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 110: Assignment to <arg fmt="%s" index="1">M_mylightup_1_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 111: Assignment to <arg fmt="%s" index="1">M_mylightup_1_mole1Up</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 164: Assignment to <arg fmt="%s" index="1">M_mylightup_2_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 165: Assignment to <arg fmt="%s" index="1">M_mylightup_2_mole1Up</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 218: Assignment to <arg fmt="%s" index="1">M_mylightup_3_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 219: Assignment to <arg fmt="%s" index="1">M_mylightup_3_mole1Up</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 272: Assignment to <arg fmt="%s" index="1">M_mylightup_4_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 273: Assignment to <arg fmt="%s" index="1">M_mylightup_4_mole1Up</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 326: Assignment to <arg fmt="%s" index="1">M_mylightup_5_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 327: Assignment to <arg fmt="%s" index="1">M_mylightup_5_mole1Up</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/timer_easy_7.v" Line 346: Result of <arg fmt="%d" index="1">88</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">24</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 366: Assignment to <arg fmt="%s" index="1">M_mytimer_easy_clkslow</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/timer_entry_level_8.v" Line 220: Result of <arg fmt="%d" index="1">88</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">24</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 383: Assignment to <arg fmt="%s" index="1">M_mytimer_entry_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 417: Assignment to <arg fmt="%s" index="1">M_myTimeKeeper_out</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/sixtnbitfa_34.v" Line 224: Assignment to <arg fmt="%s" index="1">M_fa16_carryout</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 30: Assignment to <arg fmt="%s" index="1">M_fa1_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 31: Assignment to <arg fmt="%s" index="1">M_fa1_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 32: Assignment to <arg fmt="%s" index="1">M_fa1_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 47: Assignment to <arg fmt="%s" index="1">M_fa2_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 48: Assignment to <arg fmt="%s" index="1">M_fa2_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 49: Assignment to <arg fmt="%s" index="1">M_fa2_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 64: Assignment to <arg fmt="%s" index="1">M_fa3_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 65: Assignment to <arg fmt="%s" index="1">M_fa3_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 66: Assignment to <arg fmt="%s" index="1">M_fa3_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 81: Assignment to <arg fmt="%s" index="1">M_fa4_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 82: Assignment to <arg fmt="%s" index="1">M_fa4_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 83: Assignment to <arg fmt="%s" index="1">M_fa4_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 98: Assignment to <arg fmt="%s" index="1">M_fa5_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 99: Assignment to <arg fmt="%s" index="1">M_fa5_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 100: Assignment to <arg fmt="%s" index="1">M_fa5_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 115: Assignment to <arg fmt="%s" index="1">M_fa6_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 116: Assignment to <arg fmt="%s" index="1">M_fa6_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 117: Assignment to <arg fmt="%s" index="1">M_fa6_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 132: Assignment to <arg fmt="%s" index="1">M_fa7_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 133: Assignment to <arg fmt="%s" index="1">M_fa7_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 134: Assignment to <arg fmt="%s" index="1">M_fa7_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 149: Assignment to <arg fmt="%s" index="1">M_fa8_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 150: Assignment to <arg fmt="%s" index="1">M_fa8_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 151: Assignment to <arg fmt="%s" index="1">M_fa8_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 166: Assignment to <arg fmt="%s" index="1">M_fa9_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 167: Assignment to <arg fmt="%s" index="1">M_fa9_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 168: Assignment to <arg fmt="%s" index="1">M_fa9_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 183: Assignment to <arg fmt="%s" index="1">M_fa10_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 184: Assignment to <arg fmt="%s" index="1">M_fa10_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 185: Assignment to <arg fmt="%s" index="1">M_fa10_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 200: Assignment to <arg fmt="%s" index="1">M_fa11_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 201: Assignment to <arg fmt="%s" index="1">M_fa11_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 202: Assignment to <arg fmt="%s" index="1">M_fa11_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 217: Assignment to <arg fmt="%s" index="1">M_fa12_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 218: Assignment to <arg fmt="%s" index="1">M_fa12_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 219: Assignment to <arg fmt="%s" index="1">M_fa12_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 234: Assignment to <arg fmt="%s" index="1">M_fa13_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 235: Assignment to <arg fmt="%s" index="1">M_fa13_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 236: Assignment to <arg fmt="%s" index="1">M_fa13_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 251: Assignment to <arg fmt="%s" index="1">M_fa14_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 252: Assignment to <arg fmt="%s" index="1">M_fa14_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 253: Assignment to <arg fmt="%s" index="1">M_fa14_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 268: Assignment to <arg fmt="%s" index="1">M_fa15_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 269: Assignment to <arg fmt="%s" index="1">M_fa15_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 270: Assignment to <arg fmt="%s" index="1">M_fa15_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 285: Assignment to <arg fmt="%s" index="1">M_fa16_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 286: Assignment to <arg fmt="%s" index="1">M_fa16_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v" Line 287: Assignment to <arg fmt="%s" index="1">M_fa16_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 430: Assignment to <arg fmt="%s" index="1">M_aluadder_result</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 431: Assignment to <arg fmt="%s" index="1">M_aluadder_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 444: Assignment to <arg fmt="%s" index="1">M_alushifter_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 457: Assignment to <arg fmt="%s" index="1">M_alucomplt1_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 470: Assignment to <arg fmt="%s" index="1">M_alucomplt2_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 483: Assignment to <arg fmt="%s" index="1">M_alucomplt3_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 496: Assignment to <arg fmt="%s" index="1">M_alucomplt4_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 509: Assignment to <arg fmt="%s" index="1">M_alucomplt5_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 522: Assignment to <arg fmt="%s" index="1">M_alucomplt6_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 535: Assignment to <arg fmt="%s" index="1">M_alucomplt7_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 548: Assignment to <arg fmt="%s" index="1">M_alucomplt8_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 561: Assignment to <arg fmt="%s" index="1">M_alucomplt9_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 574: Assignment to <arg fmt="%s" index="1">M_alucomplt10_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 587: Assignment to <arg fmt="%s" index="1">M_aluand1_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 600: Assignment to <arg fmt="%s" index="1">M_aluand2_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 613: Assignment to <arg fmt="%s" index="1">M_aluand3_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 626: Assignment to <arg fmt="%s" index="1">M_aluand4_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 639: Assignment to <arg fmt="%s" index="1">M_aluand5_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 652: Assignment to <arg fmt="%s" index="1">M_aluand6_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 665: Assignment to <arg fmt="%s" index="1">M_aluand7_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 678: Assignment to <arg fmt="%s" index="1">M_aluand8_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 691: Assignment to <arg fmt="%s" index="1">M_aluand9_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 704: Assignment to <arg fmt="%s" index="1">M_aluand10_v</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 740: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 743: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 746: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 749: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 752: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 755: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 758: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 761: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 764: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 767: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 770: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 773: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 853: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 856: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 859: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 862: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 865: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 868: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 871: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 874: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 877: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 880: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 881: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 882: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 883: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 884: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 885: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 886: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 887: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 888: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 889: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 890: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 891: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 892: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 893: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 894: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 895: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 896: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 897: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 898: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 899: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v" Line 900: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%d" index="2">426</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">aluadder</arg>&gt; of block &lt;<arg fmt="%s" index="4">alu_10</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">mojo_top_0</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">io_button</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">io_dip</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">cclk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">spi_ss</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">spi_mosi</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">spi_sck</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">avr_tx</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">avr_rx_busy</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">95</arg>: Output port &lt;<arg fmt="%s" index="3">mole1Up</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">149</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">149</arg>: Output port &lt;<arg fmt="%s" index="3">mole1Up</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">203</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">203</arg>: Output port &lt;<arg fmt="%s" index="3">mole1Up</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">257</arg>: Output port &lt;<arg fmt="%s" index="3">mole1Up</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">311</arg>: Output port &lt;<arg fmt="%s" index="3">mole1Up</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mylightup_5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">352</arg>: Output port &lt;<arg fmt="%s" index="3">clkslow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mytimer_easy</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">380</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mytimer_entry</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">412</arg>: Output port &lt;<arg fmt="%s" index="3">out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">myTimeKeeper</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">426</arg>: Output port &lt;<arg fmt="%s" index="3">result</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluadder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">426</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluadder</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">439</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alushifter</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">452</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">465</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">478</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">491</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">517</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">530</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">543</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">556</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">569</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">alucomplt10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">582</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">595</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">608</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">621</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">634</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">647</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">660</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">673</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">686</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mojo_top_0.v</arg>&quot; line <arg fmt="%s" index="2">699</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">aluand10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">difficulty&lt;30&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">difficulty&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">difficulty&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">difficulty&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/sixtnbitfa_34.v</arg>&quot; line <arg fmt="%s" index="2">219</arg>: Output port &lt;<arg fmt="%s" index="3">carryout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">25</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">25</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">25</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">42</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">42</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">42</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">59</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">59</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">59</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa4</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">93</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">93</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">93</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa5</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">110</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">110</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">110</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa6</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">127</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">127</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">127</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa7</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">144</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">144</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">144</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">161</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">161</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">161</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">178</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">178</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">178</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa10</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">195</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">195</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">195</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa11</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">212</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">212</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">212</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa12</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">229</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">229</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">229</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa13</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa14</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">263</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">263</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">263</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa15</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">280</arg>: Output port &lt;<arg fmt="%s" index="3">v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">280</arg>: Output port &lt;<arg fmt="%s" index="3">z</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:/Personal/Term4/ComputationStructures/1d/16bitALU/work/planAhead/16bitALU/16bitALU.srcs/sources_1/imports/verilog/mul_35.v</arg>&quot; line <arg fmt="%s" index="2">280</arg>: Output port &lt;<arg fmt="%s" index="3">n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fa16</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">difficulty_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mojo_top_0</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">M_points_q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">M_points_q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">M_points_q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">M_points_q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">M_points_q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">M_points_q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_0&gt; &lt;mytimer_easy/M_counter11_q_0&gt; &lt;mytimer_easy/M_counter7_q_0&gt; &lt;mytimer_easy/M_counter4_q_0&gt; &lt;mytimer_easy/M_counter1_q_0&gt; &lt;mytimer_easy/M_counter8_q_0&gt; &lt;mytimer_easy/M_counter9_q_0&gt; &lt;mytimer_easy/M_counter10_q_0&gt; &lt;mytimer_easy/M_counter2_q_0&gt; &lt;mytimer_easy/M_counter6_q_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_1&gt; &lt;mytimer_easy/M_counter11_q_1&gt; &lt;mytimer_easy/M_counter7_q_1&gt; &lt;mytimer_easy/M_counter4_q_1&gt; &lt;mytimer_easy/M_counter1_q_1&gt; &lt;mytimer_easy/M_counter8_q_1&gt; &lt;mytimer_easy/M_counter9_q_1&gt; &lt;mytimer_easy/M_counter10_q_1&gt; &lt;mytimer_easy/M_counter2_q_1&gt; &lt;mytimer_easy/M_counter6_q_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_2&gt; &lt;mytimer_easy/M_counter11_q_2&gt; &lt;mytimer_easy/M_counter7_q_2&gt; &lt;mytimer_easy/M_counter4_q_2&gt; &lt;mytimer_easy/M_counter1_q_2&gt; &lt;mytimer_easy/M_counter8_q_2&gt; &lt;mytimer_easy/M_counter9_q_2&gt; &lt;mytimer_easy/M_counter10_q_2&gt; &lt;mytimer_easy/M_counter2_q_2&gt; &lt;mytimer_easy/M_counter6_q_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_3&gt; &lt;mytimer_easy/M_counter11_q_3&gt; &lt;mytimer_easy/M_counter7_q_3&gt; &lt;mytimer_easy/M_counter4_q_3&gt; &lt;mytimer_easy/M_counter1_q_3&gt; &lt;mytimer_easy/M_counter8_q_3&gt; &lt;mytimer_easy/M_counter9_q_3&gt; &lt;mytimer_easy/M_counter10_q_3&gt; &lt;mytimer_easy/M_counter2_q_3&gt; &lt;mytimer_easy/M_counter6_q_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_4&gt; &lt;mytimer_easy/M_counter11_q_4&gt; &lt;mytimer_easy/M_counter7_q_4&gt; &lt;mytimer_easy/M_counter4_q_4&gt; &lt;mytimer_easy/M_counter1_q_4&gt; &lt;mytimer_easy/M_counter8_q_4&gt; &lt;mytimer_easy/M_counter9_q_4&gt; &lt;mytimer_easy/M_counter10_q_4&gt; &lt;mytimer_easy/M_counter2_q_4&gt; &lt;mytimer_easy/M_counter6_q_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_5&gt; &lt;mytimer_easy/M_counter11_q_5&gt; &lt;mytimer_easy/M_counter7_q_5&gt; &lt;mytimer_easy/M_counter4_q_5&gt; &lt;mytimer_easy/M_counter1_q_5&gt; &lt;mytimer_easy/M_counter8_q_5&gt; &lt;mytimer_easy/M_counter9_q_5&gt; &lt;mytimer_easy/M_counter10_q_5&gt; &lt;mytimer_easy/M_counter2_q_5&gt; &lt;mytimer_easy/M_counter6_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_6&gt; &lt;mytimer_easy/M_counter11_q_6&gt; &lt;mytimer_easy/M_counter7_q_6&gt; &lt;mytimer_easy/M_counter4_q_6&gt; &lt;mytimer_easy/M_counter1_q_6&gt; &lt;mytimer_easy/M_counter8_q_6&gt; &lt;mytimer_easy/M_counter9_q_6&gt; &lt;mytimer_easy/M_counter10_q_6&gt; &lt;mytimer_easy/M_counter2_q_6&gt; &lt;mytimer_easy/M_counter6_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_7&gt; &lt;mytimer_easy/M_counter11_q_7&gt; &lt;mytimer_easy/M_counter7_q_7&gt; &lt;mytimer_easy/M_counter4_q_7&gt; &lt;mytimer_easy/M_counter1_q_7&gt; &lt;mytimer_easy/M_counter8_q_7&gt; &lt;mytimer_easy/M_counter9_q_7&gt; &lt;mytimer_easy/M_counter10_q_7&gt; &lt;mytimer_easy/M_counter2_q_7&gt; &lt;mytimer_easy/M_counter6_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_8&gt; &lt;mytimer_easy/M_counter11_q_8&gt; &lt;mytimer_easy/M_counter7_q_8&gt; &lt;mytimer_easy/M_counter4_q_8&gt; &lt;mytimer_easy/M_counter1_q_8&gt; &lt;mytimer_easy/M_counter8_q_8&gt; &lt;mytimer_easy/M_counter9_q_8&gt; &lt;mytimer_easy/M_counter10_q_8&gt; &lt;mytimer_easy/M_counter2_q_8&gt; &lt;mytimer_easy/M_counter6_q_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_9&gt; &lt;mytimer_easy/M_counter11_q_9&gt; &lt;mytimer_easy/M_counter7_q_9&gt; &lt;mytimer_easy/M_counter4_q_9&gt; &lt;mytimer_easy/M_counter1_q_9&gt; &lt;mytimer_easy/M_counter8_q_9&gt; &lt;mytimer_easy/M_counter9_q_9&gt; &lt;mytimer_easy/M_counter10_q_9&gt; &lt;mytimer_easy/M_counter2_q_9&gt; &lt;mytimer_easy/M_counter6_q_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter11_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter9_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter11_q_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter9_q_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter4_q_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter2_q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter8_q_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter6_q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_10&gt; &lt;mytimer_entry/M_counter1_q_10&gt; &lt;mytimer_entry/M_counter8_q_10&gt; &lt;mytimer_entry/M_counter6_q_10&gt; &lt;mytimer_entry/M_counter4_q_10&gt; &lt;mytimer_entry/M_counter5_q_10&gt; &lt;mytimer_entry/M_counter9_q_10&gt; &lt;mytimer_entry/M_counter7_q_10&gt; &lt;mytimer_entry/M_counter2_q_10&gt; &lt;mytimer_entry/M_counter11_q_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_11&gt; &lt;mytimer_entry/M_counter1_q_11&gt; &lt;mytimer_entry/M_counter8_q_11&gt; &lt;mytimer_entry/M_counter6_q_11&gt; &lt;mytimer_entry/M_counter4_q_11&gt; &lt;mytimer_entry/M_counter5_q_11&gt; &lt;mytimer_entry/M_counter9_q_11&gt; &lt;mytimer_entry/M_counter7_q_11&gt; &lt;mytimer_entry/M_counter2_q_11&gt; &lt;mytimer_entry/M_counter11_q_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_12&gt; &lt;mytimer_entry/M_counter1_q_12&gt; &lt;mytimer_entry/M_counter8_q_12&gt; &lt;mytimer_entry/M_counter6_q_12&gt; &lt;mytimer_entry/M_counter4_q_12&gt; &lt;mytimer_entry/M_counter5_q_12&gt; &lt;mytimer_entry/M_counter9_q_12&gt; &lt;mytimer_entry/M_counter7_q_12&gt; &lt;mytimer_entry/M_counter2_q_12&gt; &lt;mytimer_entry/M_counter11_q_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_13&gt; &lt;mytimer_entry/M_counter1_q_13&gt; &lt;mytimer_entry/M_counter8_q_13&gt; &lt;mytimer_entry/M_counter6_q_13&gt; &lt;mytimer_entry/M_counter4_q_13&gt; &lt;mytimer_entry/M_counter5_q_13&gt; &lt;mytimer_entry/M_counter9_q_13&gt; &lt;mytimer_entry/M_counter7_q_13&gt; &lt;mytimer_entry/M_counter2_q_13&gt; &lt;mytimer_entry/M_counter11_q_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_14&gt; &lt;mytimer_entry/M_counter1_q_14&gt; &lt;mytimer_entry/M_counter8_q_14&gt; &lt;mytimer_entry/M_counter6_q_14&gt; &lt;mytimer_entry/M_counter4_q_14&gt; &lt;mytimer_entry/M_counter5_q_14&gt; &lt;mytimer_entry/M_counter9_q_14&gt; &lt;mytimer_entry/M_counter7_q_14&gt; &lt;mytimer_entry/M_counter2_q_14&gt; &lt;mytimer_entry/M_counter11_q_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_20&gt; &lt;mytimer_entry/M_counter1_q_20&gt; &lt;mytimer_entry/M_counter5_q_20&gt; &lt;mytimer_entry/M_counter9_q_20&gt; &lt;mytimer_entry/M_counter7_q_20&gt; &lt;mytimer_entry/M_counter11_q_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_15&gt; &lt;mytimer_entry/M_counter1_q_15&gt; &lt;mytimer_entry/M_counter8_q_15&gt; &lt;mytimer_entry/M_counter6_q_15&gt; &lt;mytimer_entry/M_counter4_q_15&gt; &lt;mytimer_entry/M_counter5_q_15&gt; &lt;mytimer_entry/M_counter9_q_15&gt; &lt;mytimer_entry/M_counter7_q_15&gt; &lt;mytimer_entry/M_counter2_q_15&gt; &lt;mytimer_entry/M_counter11_q_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_16&gt; &lt;mytimer_entry/M_counter1_q_16&gt; &lt;mytimer_entry/M_counter8_q_16&gt; &lt;mytimer_entry/M_counter6_q_16&gt; &lt;mytimer_entry/M_counter4_q_16&gt; &lt;mytimer_entry/M_counter5_q_16&gt; &lt;mytimer_entry/M_counter9_q_16&gt; &lt;mytimer_entry/M_counter7_q_16&gt; &lt;mytimer_entry/M_counter2_q_16&gt; &lt;mytimer_entry/M_counter11_q_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter1_q_21&gt; &lt;mytimer_entry/M_counter5_q_21&gt; &lt;mytimer_entry/M_counter7_q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_17&gt; &lt;mytimer_entry/M_counter1_q_17&gt; &lt;mytimer_entry/M_counter8_q_17&gt; &lt;mytimer_entry/M_counter6_q_17&gt; &lt;mytimer_entry/M_counter4_q_17&gt; &lt;mytimer_entry/M_counter5_q_17&gt; &lt;mytimer_entry/M_counter9_q_17&gt; &lt;mytimer_entry/M_counter7_q_17&gt; &lt;mytimer_entry/M_counter2_q_17&gt; &lt;mytimer_entry/M_counter11_q_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter5_q_22&gt; &lt;mytimer_entry/M_counter7_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_18&gt; &lt;mytimer_entry/M_counter1_q_18&gt; &lt;mytimer_entry/M_counter8_q_18&gt; &lt;mytimer_entry/M_counter6_q_18&gt; &lt;mytimer_entry/M_counter4_q_18&gt; &lt;mytimer_entry/M_counter5_q_18&gt; &lt;mytimer_entry/M_counter9_q_18&gt; &lt;mytimer_entry/M_counter7_q_18&gt; &lt;mytimer_entry/M_counter2_q_18&gt; &lt;mytimer_entry/M_counter11_q_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_19&gt; &lt;mytimer_entry/M_counter1_q_19&gt; &lt;mytimer_entry/M_counter8_q_19&gt; &lt;mytimer_entry/M_counter6_q_19&gt; &lt;mytimer_entry/M_counter4_q_19&gt; &lt;mytimer_entry/M_counter5_q_19&gt; &lt;mytimer_entry/M_counter9_q_19&gt; &lt;mytimer_entry/M_counter7_q_19&gt; &lt;mytimer_entry/M_counter2_q_19&gt; &lt;mytimer_entry/M_counter11_q_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_10&gt; &lt;mytimer_easy/M_counter11_q_10&gt; &lt;mytimer_easy/M_counter7_q_10&gt; &lt;mytimer_easy/M_counter4_q_10&gt; &lt;mytimer_easy/M_counter1_q_10&gt; &lt;mytimer_easy/M_counter8_q_10&gt; &lt;mytimer_easy/M_counter9_q_10&gt; &lt;mytimer_easy/M_counter10_q_10&gt; &lt;mytimer_easy/M_counter2_q_10&gt; &lt;mytimer_easy/M_counter6_q_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_11&gt; &lt;mytimer_easy/M_counter11_q_11&gt; &lt;mytimer_easy/M_counter7_q_11&gt; &lt;mytimer_easy/M_counter4_q_11&gt; &lt;mytimer_easy/M_counter1_q_11&gt; &lt;mytimer_easy/M_counter8_q_11&gt; &lt;mytimer_easy/M_counter9_q_11&gt; &lt;mytimer_easy/M_counter10_q_11&gt; &lt;mytimer_easy/M_counter2_q_11&gt; &lt;mytimer_easy/M_counter6_q_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_12&gt; &lt;mytimer_easy/M_counter11_q_12&gt; &lt;mytimer_easy/M_counter7_q_12&gt; &lt;mytimer_easy/M_counter4_q_12&gt; &lt;mytimer_easy/M_counter1_q_12&gt; &lt;mytimer_easy/M_counter8_q_12&gt; &lt;mytimer_easy/M_counter9_q_12&gt; &lt;mytimer_easy/M_counter10_q_12&gt; &lt;mytimer_easy/M_counter2_q_12&gt; &lt;mytimer_easy/M_counter6_q_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_13&gt; &lt;mytimer_easy/M_counter11_q_13&gt; &lt;mytimer_easy/M_counter7_q_13&gt; &lt;mytimer_easy/M_counter4_q_13&gt; &lt;mytimer_easy/M_counter1_q_13&gt; &lt;mytimer_easy/M_counter8_q_13&gt; &lt;mytimer_easy/M_counter9_q_13&gt; &lt;mytimer_easy/M_counter10_q_13&gt; &lt;mytimer_easy/M_counter2_q_13&gt; &lt;mytimer_easy/M_counter6_q_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_14&gt; &lt;mytimer_easy/M_counter11_q_14&gt; &lt;mytimer_easy/M_counter7_q_14&gt; &lt;mytimer_easy/M_counter4_q_14&gt; &lt;mytimer_easy/M_counter1_q_14&gt; &lt;mytimer_easy/M_counter8_q_14&gt; &lt;mytimer_easy/M_counter9_q_14&gt; &lt;mytimer_easy/M_counter10_q_14&gt; &lt;mytimer_easy/M_counter2_q_14&gt; &lt;mytimer_easy/M_counter6_q_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_20&gt; &lt;mytimer_easy/M_counter11_q_20&gt; &lt;mytimer_easy/M_counter7_q_20&gt; &lt;mytimer_easy/M_counter1_q_20&gt; &lt;mytimer_easy/M_counter9_q_20&gt; &lt;mytimer_easy/M_counter10_q_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_15&gt; &lt;mytimer_easy/M_counter11_q_15&gt; &lt;mytimer_easy/M_counter7_q_15&gt; &lt;mytimer_easy/M_counter4_q_15&gt; &lt;mytimer_easy/M_counter1_q_15&gt; &lt;mytimer_easy/M_counter8_q_15&gt; &lt;mytimer_easy/M_counter9_q_15&gt; &lt;mytimer_easy/M_counter10_q_15&gt; &lt;mytimer_easy/M_counter2_q_15&gt; &lt;mytimer_easy/M_counter6_q_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_21&gt; &lt;mytimer_easy/M_counter7_q_21&gt; &lt;mytimer_easy/M_counter1_q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_16&gt; &lt;mytimer_easy/M_counter11_q_16&gt; &lt;mytimer_easy/M_counter7_q_16&gt; &lt;mytimer_easy/M_counter4_q_16&gt; &lt;mytimer_easy/M_counter1_q_16&gt; &lt;mytimer_easy/M_counter8_q_16&gt; &lt;mytimer_easy/M_counter9_q_16&gt; &lt;mytimer_easy/M_counter10_q_16&gt; &lt;mytimer_easy/M_counter2_q_16&gt; &lt;mytimer_easy/M_counter6_q_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_22&gt; &lt;mytimer_easy/M_counter7_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_17&gt; &lt;mytimer_easy/M_counter11_q_17&gt; &lt;mytimer_easy/M_counter7_q_17&gt; &lt;mytimer_easy/M_counter4_q_17&gt; &lt;mytimer_easy/M_counter1_q_17&gt; &lt;mytimer_easy/M_counter8_q_17&gt; &lt;mytimer_easy/M_counter9_q_17&gt; &lt;mytimer_easy/M_counter10_q_17&gt; &lt;mytimer_easy/M_counter2_q_17&gt; &lt;mytimer_easy/M_counter6_q_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_18&gt; &lt;mytimer_easy/M_counter11_q_18&gt; &lt;mytimer_easy/M_counter7_q_18&gt; &lt;mytimer_easy/M_counter4_q_18&gt; &lt;mytimer_easy/M_counter1_q_18&gt; &lt;mytimer_easy/M_counter8_q_18&gt; &lt;mytimer_easy/M_counter9_q_18&gt; &lt;mytimer_easy/M_counter10_q_18&gt; &lt;mytimer_easy/M_counter2_q_18&gt; &lt;mytimer_easy/M_counter6_q_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter7_q_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_19&gt; &lt;mytimer_easy/M_counter11_q_19&gt; &lt;mytimer_easy/M_counter7_q_19&gt; &lt;mytimer_easy/M_counter4_q_19&gt; &lt;mytimer_easy/M_counter1_q_19&gt; &lt;mytimer_easy/M_counter8_q_19&gt; &lt;mytimer_easy/M_counter9_q_19&gt; &lt;mytimer_easy/M_counter10_q_19&gt; &lt;mytimer_easy/M_counter2_q_19&gt; &lt;mytimer_easy/M_counter6_q_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter9_q_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter11_q_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_0&gt; &lt;mytimer_entry/M_counter1_q_0&gt; &lt;mytimer_entry/M_counter8_q_0&gt; &lt;mytimer_entry/M_counter6_q_0&gt; &lt;mytimer_entry/M_counter4_q_0&gt; &lt;mytimer_entry/M_counter5_q_0&gt; &lt;mytimer_entry/M_counter9_q_0&gt; &lt;mytimer_entry/M_counter7_q_0&gt; &lt;mytimer_entry/M_counter2_q_0&gt; &lt;mytimer_entry/M_counter11_q_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_1&gt; &lt;mytimer_entry/M_counter1_q_1&gt; &lt;mytimer_entry/M_counter8_q_1&gt; &lt;mytimer_entry/M_counter6_q_1&gt; &lt;mytimer_entry/M_counter4_q_1&gt; &lt;mytimer_entry/M_counter5_q_1&gt; &lt;mytimer_entry/M_counter9_q_1&gt; &lt;mytimer_entry/M_counter7_q_1&gt; &lt;mytimer_entry/M_counter2_q_1&gt; &lt;mytimer_entry/M_counter11_q_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_2&gt; &lt;mytimer_entry/M_counter1_q_2&gt; &lt;mytimer_entry/M_counter8_q_2&gt; &lt;mytimer_entry/M_counter6_q_2&gt; &lt;mytimer_entry/M_counter4_q_2&gt; &lt;mytimer_entry/M_counter5_q_2&gt; &lt;mytimer_entry/M_counter9_q_2&gt; &lt;mytimer_entry/M_counter7_q_2&gt; &lt;mytimer_entry/M_counter2_q_2&gt; &lt;mytimer_entry/M_counter11_q_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_3&gt; &lt;mytimer_entry/M_counter1_q_3&gt; &lt;mytimer_entry/M_counter8_q_3&gt; &lt;mytimer_entry/M_counter6_q_3&gt; &lt;mytimer_entry/M_counter4_q_3&gt; &lt;mytimer_entry/M_counter5_q_3&gt; &lt;mytimer_entry/M_counter9_q_3&gt; &lt;mytimer_entry/M_counter7_q_3&gt; &lt;mytimer_entry/M_counter2_q_3&gt; &lt;mytimer_entry/M_counter11_q_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_4&gt; &lt;mytimer_entry/M_counter1_q_4&gt; &lt;mytimer_entry/M_counter8_q_4&gt; &lt;mytimer_entry/M_counter6_q_4&gt; &lt;mytimer_entry/M_counter4_q_4&gt; &lt;mytimer_entry/M_counter5_q_4&gt; &lt;mytimer_entry/M_counter9_q_4&gt; &lt;mytimer_entry/M_counter7_q_4&gt; &lt;mytimer_entry/M_counter2_q_4&gt; &lt;mytimer_entry/M_counter11_q_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_5&gt; &lt;mytimer_entry/M_counter1_q_5&gt; &lt;mytimer_entry/M_counter8_q_5&gt; &lt;mytimer_entry/M_counter6_q_5&gt; &lt;mytimer_entry/M_counter4_q_5&gt; &lt;mytimer_entry/M_counter5_q_5&gt; &lt;mytimer_entry/M_counter9_q_5&gt; &lt;mytimer_entry/M_counter7_q_5&gt; &lt;mytimer_entry/M_counter2_q_5&gt; &lt;mytimer_entry/M_counter11_q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_6&gt; &lt;mytimer_entry/M_counter1_q_6&gt; &lt;mytimer_entry/M_counter8_q_6&gt; &lt;mytimer_entry/M_counter6_q_6&gt; &lt;mytimer_entry/M_counter4_q_6&gt; &lt;mytimer_entry/M_counter5_q_6&gt; &lt;mytimer_entry/M_counter9_q_6&gt; &lt;mytimer_entry/M_counter7_q_6&gt; &lt;mytimer_entry/M_counter2_q_6&gt; &lt;mytimer_entry/M_counter11_q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_7&gt; &lt;mytimer_entry/M_counter1_q_7&gt; &lt;mytimer_entry/M_counter8_q_7&gt; &lt;mytimer_entry/M_counter6_q_7&gt; &lt;mytimer_entry/M_counter4_q_7&gt; &lt;mytimer_entry/M_counter5_q_7&gt; &lt;mytimer_entry/M_counter9_q_7&gt; &lt;mytimer_entry/M_counter7_q_7&gt; &lt;mytimer_entry/M_counter2_q_7&gt; &lt;mytimer_entry/M_counter11_q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_8&gt; &lt;mytimer_entry/M_counter1_q_8&gt; &lt;mytimer_entry/M_counter8_q_8&gt; &lt;mytimer_entry/M_counter6_q_8&gt; &lt;mytimer_entry/M_counter4_q_8&gt; &lt;mytimer_entry/M_counter5_q_8&gt; &lt;mytimer_entry/M_counter9_q_8&gt; &lt;mytimer_entry/M_counter7_q_8&gt; &lt;mytimer_entry/M_counter2_q_8&gt; &lt;mytimer_entry/M_counter11_q_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">10 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_9&gt; &lt;mytimer_entry/M_counter1_q_9&gt; &lt;mytimer_entry/M_counter8_q_9&gt; &lt;mytimer_entry/M_counter6_q_9&gt; &lt;mytimer_entry/M_counter4_q_9&gt; &lt;mytimer_entry/M_counter5_q_9&gt; &lt;mytimer_entry/M_counter9_q_9&gt; &lt;mytimer_entry/M_counter7_q_9&gt; &lt;mytimer_entry/M_counter2_q_9&gt; &lt;mytimer_entry/M_counter11_q_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter8_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter6_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter11_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter10_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter4_q_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter8_q_21&gt; &lt;mytimer_easy/M_counter6_q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter4_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter2_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter8_q_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter4_q_21&gt; &lt;mytimer_entry/M_counter2_q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter8_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter6_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter8_q_20&gt; &lt;mytimer_entry/M_counter6_q_20&gt; &lt;mytimer_entry/M_counter4_q_20&gt; &lt;mytimer_entry/M_counter2_q_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter10_q_21&gt; &lt;mytimer_entry/M_counter9_q_21&gt; &lt;mytimer_entry/M_counter11_q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter1_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter3_q_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter5_q_23&gt; &lt;mytimer_entry/M_counter7_q_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter4_q_20&gt; &lt;mytimer_easy/M_counter8_q_20&gt; &lt;mytimer_easy/M_counter2_q_20&gt; &lt;mytimer_easy/M_counter6_q_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter11_q_21&gt; &lt;mytimer_easy/M_counter9_q_21&gt; &lt;mytimer_easy/M_counter10_q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter1_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_easy/M_counter5_q_23</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_easy/M_counter3_q_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter4_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter2_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">mytimer_entry/M_counter10_q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mojo_top_0</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;mytimer_entry/M_counter9_q_22&gt; &lt;mytimer_entry/M_counter11_q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
